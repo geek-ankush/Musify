@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <script  src="https://kit.fontawesome.com/b3348ae33f.js" crossorigin="anonymous"></script>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');</style>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');</style>
+    <title>Musify</title>
+  </head>
+
+  <body>
+
+    <!-- Header Section -->
+    <header id="header">
+      <!-- Navigation Section -->
+      <nav id="nav">
+        <!-- Left Side of Nav Pane -->
+        <div id="left-nav">
+          <img id="logo" src="assets/img/logo.png">
+          <span id="name">𝕄𝕦𝕤𝕚𝕗𝕪</span>
+          <a id="favorites" href="">Favorites</a>
+        </div>
+        <!-- Right Side of Nav Pane -->
+        <div id="right-nav">
+          <div id="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="search" class="no-outline" type="text" placeholder="Search"></input>
+            <i class="fa-solid fa-microphone"></i>
+          </div>
+          <div id="notification">
+              <i class="fa-solid fa-bell"></i>
+          </div>
+          <div id="profile-section">
+            <img id="profile-pic" src="assets/img/profile-pic.png">
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN Window -->
+    <div id="main-content">
+      <main>
+        <!-- Playlist Section -->
+        <section id="playlist-container">
+          <!-- Playlist Details Section -->
+          <div id="playlist-banner">
+            <div id="playlist-img">
+              <img src="assets/img/playlist-banner.png">
+            </div>
+            <div id="playlist-description">
+              <h2>Playlist</h2>
+              <h1>Popular Indian Music</h1>
+              <p>"Popular Indian Music" is a dynamic playlist showcasing the top hits from India, spanning a variety of genres and styles. </p>
+            </div>
+          </div>
+          <div id="playlist-songs">
+            <h2>Songs</h2>
+            <form id="songs-table">
+              <div class="div-table">
+                <div class="div-table-header">
+                  <div class="div-table-col col1">#</div>
+                  <div class="div-table-col col2">Title</div>
+                  <div class="div-table-col col3">Artist</div>
+                </div>
+                <div class="div-table-row">
+                  <div class="div-table-col col1">1</div>
+                  <div class="div-table-col col2"><img src="https://i.scdn.co/image/ab67616d00004851d6181999e3c1c1bb525f9989"><span>Same Beef</span></div>
+                  <div class="div-table-col col3"><span>Bohemia, Sidhu</span></div>
+                </div>
+                <div class="div-table-row">
+                    <div class="div-table-col col1">2</div>
+                    <div class="div-table-col col2"><img src="https://i.scdn.co/image/ab67616d00004851df2fdeac8ff21691c02ece78"><span>Alag Aasmaan</span></div>
+                    <div class="div-table-col col3"><span>Anuv Jain</span></div>
+                  </div>
+                <div class="div-table-row">
+                  <div class="div-table-col col1">3</div>
+                  <div class="div-table-col col2"><img src="https://i.scdn.co/image/ab67616d00004851d05cb0855dc35316da3d4036"><span>We Rollin</span></div>
+                  <div class="div-table-col col3"><span>Shubh</span></div>
+                </div>
+                <div class="div-table-row">
+                  <div class="div-table-col col1">4</div>
+                  <div class="div-table-col col2"><img src="https://i.scdn.co/image/ab67616d00004851cc2d1bd8004cc1f628d1b5e5"><span>Kahaan Ho Tum</span></div>
+                  <div class="div-table-col col3"><span>Prateek Kuhad</span></div>
+                </div>
+              </div>
+          </form>
+          </div>
+        </section>
+      </main>
+      
+      <!-- Aside Section -->
+      <aside>
+        <!-- Aside - Similar Artist Section -->
+        <div id="artists-container">
+          <h1 class="content-header">
+            Similar Artist
+          </h1>
+          <div id="artist-list" class="div-table">
+            <div class="div-table-row">
+                <div class="div-table-col col1"><i class="fa-solid fa-play"></i></div>
+                <div class="div-table-col col2">
+                  <img src="https://allaboutmusic.in/wp-content/uploads/2021/09/Shankar-Mahadevan-BW-1.jpg">
+                  <span>Shankar Mahadevan</span>
+                </div>
+              </div>
+              <div class="div-table-row">
+                  <div class="div-table-col col1"><i class="fa-solid fa-play"></i></div>
+                  <div class="div-table-col col2">
+                    <img src="https://i.scdn.co/image/ab6761610000e5ebb8162865f9d33a22dfac8791">
+                    <span>Sachet Tandan</span>
+                  </div>
+                </div>
+              <div class="div-table-row">
+                <div class="div-table-col col1"><i class="fa-solid fa-play"></i></div>
+                <div class="div-table-col col2">
+                  <img src="https://thisis-images.scdn.co/37i9dQZF1DZ06evO2LGesn-default.jpg">
+                  <span>Armaan Malik</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Aside - Recent Music Section -->
+          <div id="recents-container">
+            <h1 class="content-header">
+              Recently Played
+            </h1>
+            <div id="recent-songs"class="div-table">
+              <div class="div-table-row">
+                  <div class="div-table-col col1"><i class="fa-solid fa-play"></i></div>
+                  <div class="div-table-col col2">
+                    <img src="https://i.scdn.co/image/ab67616d00004851c4929e3decc79f903a49bb74">
+                    <span>Har Ek Pal</span>
+                  </div>
+                </div>
+                <div class="div-table-row">
+                    <div class="div-table-col col1"><i class="fa-solid fa-play"></i></div>
+                    <div class="div-table-col col2">
+                      <img src="https://i.scdn.co/image/ab67616d0000485102ef23e492fb485d08068845">
+                      <span>iktara</span>
+                    </div>
+                  </div>
+                <div class="div-table-row">
+                  <div class="div-table-col col1"><i class="fa-solid fa-play"></i></i></div>
+                  <div class="div-table-col col2">
+                    <img src="https://i.scdn.co/image/ab67616d00004851d05cb0855dc35316da3d4036">
+                    <span>We Rollin</span>
+                  </div>
+                </div>
+                <div class="div-table-row">
+                    <div class="div-table-col col1"><i class="fa-solid fa-play"></i></div>
+                    <div class="div-table-col col2">
+                      <img src="https://i.scdn.co/image/ab67616d00004851595955f2e6d20eacb60548b6">
+                      <span>Chalo Chalien</span>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </aside>
+    </div>
+      
+
+      <!-- Music Player Controls -->
+      <footer id="media-player" class = "bottom">
+
+        <div class="songInfo">
+          <div id="songBanner">
+            <img src="https://i.scdn.co/image/ab67616d00004851d05cb0855dc35316da3d4036" width="48px" alt="" > 
+          </div>
+          <div id="songName">
+            <span id="masterSongName" style="text-align: center;">We Rollin - Shubh</span>
+          </div>
+        </div>
+        <div class="player-container">
+          <div class="player-controls">
+            <div class="icons">
+              <!-- Music Controls -->
+              <div id="shuffle">
+                <i class="fas fa-sharp fa-1x fa-solid fa-shuffle"></i>
+              </div>
+              <div id="prev">
+                <i class="fas fa-xl fa-step-backward" id="previous" aria-hidden="true"></i>
+              </div>
+              <div id="play-pause">
+                <i class="far fa-2x fa-pause-circle" id="masterPlay" aria-hidden="true"></i>
+              </div>
+              <div id="next">
+                <i class="fas fa-xl fa-step-forward" id="next" aria-hidden="true"></i> 
+              </div>
+              <div id="repeat">
+                <i class="fas fa-1x fa-solid fa-repeat"></i>
+              </div>
+            </div>
+            
+            <div id="music-progress">
+              <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+            </div>
+          </div>
+        </div>
+
+      <div class="other-controls">
+          <svg xmlns="http://www.w3.org/2000/svg" width="72" height="40" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 24 24">
+            <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+            <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+            <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+            <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="72" height="40" fill="currentColor" class="bi bi-cast" viewBox="0 0 24 24">
+            <path d="m7.646 9.354-3.792 3.792a.5.5 0 0 0 .353.854h7.586a.5.5 0 0 0 .354-.854L8.354 9.354a.5.5 0 0 0-.708 0z"/>
+            <path d="M11.414 11H14.5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h3.086l-1 1H1.5A1.5 1.5 0 0 1 0 10.5v-7A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v7a1.5 1.5 0 0 1-1.5 1.5h-2.086l-1-1z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="72" height="40" fill="currentColor" class="bi bi-volume-up" viewBox="0 0 24 24">
+            <path d="M11.536 14.01A8.473 8.473 0 0 0 14.026 8a8.473 8.473 0 0 0-2.49-6.01l-.708.707A7.476 7.476 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303l.708.707z"/>
+            <path d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.483 5.483 0 0 1 11.025 8a5.483 5.483 0 0 1-1.61 3.89l.706.706z"/>
+            <path d="M10.025 8a4.486 4.486 0 0 1-1.318 3.182L8 10.475A3.489 3.489 0 0 0 9.025 8c0-.966-.392-1.841-1.025-2.475l.707-.707A4.486 4.486 0 0 1 10.025 8zM7 4a.5.5 0 0 0-.812-.39L3.825 5.5H1.5A.5.5 0 0 0 1 6v4a.5.5 0 0 0 .5.5h2.325l2.363 1.89A.5.5 0 0 0 7 12V4zM4.312 6.39 6 5.04v5.92L4.312 9.61A.5.5 0 0 0 4 9.5H2v-3h2a.5.5 0 0 0 .312-.11z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="72" height="40" fill="currentColor" class="bi bi-arrows-angle-expand" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
+          </svg>
+      </div>
+
+    </footer>
+
+  </body>
+</html>
